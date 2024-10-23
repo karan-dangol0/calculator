@@ -34,7 +34,7 @@ body{
 }
 .display-box{
    
-    width: 450px;
+    width: 100%;
     height: 110px;
     font-size: 30px;
     padding: 30px;
@@ -60,4 +60,16 @@ body{
     /* border: 1px solid red; */
     text-align: center;
     font-size: 30px;
+}
+
+
+@media (max-width:400px){
+    .container{
+        width: 250px;
+        border: 5px solid red;
+    }
+
+    .key{
+        width: 50px;
+    }
 }
